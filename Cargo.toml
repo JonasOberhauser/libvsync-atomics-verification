@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["verify/asm2boogie"]
+
+
+
+[patch.crates-io]
+graph-cycles = { git = 'https://github.com/JonasOberhauser/graph-cycles.git', branch = "JonasOberhauser/generalize" }
